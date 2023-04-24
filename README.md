@@ -1,6 +1,6 @@
 # Sequência Numérica
 <div class="modal-body p-3">
-					<p class="mb-3">Bem-vindo ao jogo Sequência Numérica! O objetivo do jogo é adivinhar um número aleatório gerado pelo computador. Mas atenção, as regras são simples, porém rigorosas:</p>
+					<p class="mb-3">Bem-vindo ao jogo Sequência Numérica! O objetivo do jogo é completar a sequência em ordem crescente com números aleatórios gerado pelo computador. Mas atenção, as regras são simples, porém rigorosas:</p>
 					<ul class="ms-3">
 						<li class="mb-2">Cada jogador pode inserir até 10 números no total;</li>
 						<li class="mb-2">Cada número deve ser um valor inteiro de 1 a 999;</li>
