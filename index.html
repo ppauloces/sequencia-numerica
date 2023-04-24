@@ -16,20 +16,9 @@
 			background: linear-gradient(to right, #00f935, #00ffa7);
 		}
 
-		.animating {
-			animation: slide-up 3s;
-			animation-fill-mode: forwards;
-		}
 
-		@keyframes slide-up {
-			from {
-				opacity: 0;
-				transform: translateY(100%);
-			}
-			to {
-				opacity: 1;
-				transform: translateY(0%);
-			}
+		.form-control{
+			cursor: pointer;
 		}
 	</style>
 </head>
@@ -40,16 +29,16 @@
 		<div id="" class="text-center card" style="border-color: green;border-radius: 25px;">
 			<div class="card-body px-5" style="width:400px; padding: 5px;">
 				<h1 style="font-family: 'Anton', sans-serif;letter-spacing: 2px;">Sequência numérica</h1>
-				<input type="text" id="input1" class="form-control mb-3 form-control-lg text-center" style="border-color: green;">
-				<input type="text" id="input2" class="form-control mb-3 form-control-lg text-center" style="border-color: green;">
-				<input type="text" id="input3" class="form-control mb-3 form-control-lg text-center" style="border-color: green;">
-				<input type="text" id="input4" class="form-control mb-3 form-control-lg text-center" style="border-color: green;">
-				<input type="text" id="input5" class="form-control mb-3 form-control-lg text-center" style="border-color: green;">
-				<input type="text" id="input6" class="form-control mb-3 form-control-lg text-center" style="border-color: green;">
-				<input type="text" id="input7" class="form-control mb-3 form-control-lg text-center" style="border-color: green;">
-				<input type="text" id="input8" class="form-control mb-3 form-control-lg text-center" style="border-color: green;">
-				<input type="text" id="input9" class="form-control mb-3  form-control-lg text-center" style="border-color: green;">
-				<input type="text" id="input10" class="form-control mb-3 form-control-lg text-center" style="border-color: green;">
+				<input type="text" class="form-control mb-3 form-control-lg text-center" style="border-color: green;">
+				<input type="text" class="form-control mb-3 form-control-lg text-center" style="border-color: green;">
+				<input type="text" class="form-control mb-3 form-control-lg text-center" style="border-color: green;">
+				<input type="text" class="form-control mb-3 form-control-lg text-center" style="border-color: green;">
+				<input type="text" class="form-control mb-3 form-control-lg text-center" style="border-color: green;">
+				<input type="text" class="form-control mb-3 form-control-lg text-center" style="border-color: green;">
+				<input type="text" class="form-control mb-3 form-control-lg text-center" style="border-color: green;">
+				<input type="text" class="form-control mb-3 form-control-lg text-center" style="border-color: green;">
+				<input type="text" class="form-control mb-3  form-control-lg text-center" style="border-color: green;">
+				<input type="text" class="form-control mb-3 form-control-lg text-center" style="border-color: green;">
 				<h3 id="result" style="font-family: 'Anton', sans-serif"></h3><br>
 				<button id="generate" class="btn btn-success btn-lg">Gerar número</button>
 				<div id="game" class="text-center"></div>
